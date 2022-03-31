@@ -22,7 +22,7 @@ return new class extends Migration
 			$table->string('stock');
 			$table->string('active');
 			$table->string('product_type');
-			$table->year('year added');
+			$table->year('year_added');
             $table->timestamps();
         });
     }
